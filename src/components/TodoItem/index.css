@@ -1,0 +1,84 @@
+.task-item {
+  background-color: #94a3b8;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+.task-name {
+  color: #ffffff;
+  font-family: 'bree serif';
+  font-size: 26px;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+
+.name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.task-details-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.type-text {
+  color: #4f46e5;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.date {
+  color: #2d87bb;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.delete-icon-button {
+  background-color: transparent;
+  border: none;
+}
+.modal-container {
+  background-color: #ffffff;
+  padding: 20px 25px 20px 25px;
+  border-radius: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+.delete-text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+.popup-btn {
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #6c757d;
+  border-radius: 4px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.delete-button {
+  background-color: red;
+  color: #ffffff;
+  border: none;
+}
